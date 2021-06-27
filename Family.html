@@ -1,0 +1,415 @@
+﻿<!DOCTYPE html>
+<html lang="HE">
+<head>
+    <meta charset="utf-8" />
+    <title>רושם ראשוני מול ההורים של בן/בת הזוג - אתר אין שני לו</title>
+    <meta name="description" content="יצירת רושם ראשוני חיובי מול ההורים של בן/בת הזוג" />
+    <meta name="keywords" content="רושם", "רושם ראשוני", "הורים", "בני זוג", "בן זוג", "בת זוג" />
+    <meta name="author" content=""קרן הראל", "יובל שטרק", "מור ביבס", "דורון גטניו"" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+    <link rel="icon" href="graphics/favicon.svg">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- JS -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <!-- <script src="jScripts/jScript.js"></script> -->
+    <script src="jScripts/jScript_inner_page.js"></script>
+</head>
+<body>
+    <div id="container">
+        <header id="header_index">
+            <a href="#main" class="skip_inner_pages"> דלג לתוכן העמוד > </a>
+            <nav class="main_nav_sticky">
+                <a href="index.html#header_index"><img class="logo" src="images/Logo.svg" alt="אין שני לו עמוד הבית"></a>
+                <ul>
+                    <li>
+                        <a href="#" class="deflut_pointer" title="עבודה">עבודה</a>
+                        <ul>
+                            <li><a href="Job_Interview.html">ראיון קבלה</a></li>
+                            <li><a class="not_working_link" href="#">היום הראשון</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="deflut_pointer active_page" title="זוגיות">זוגיות</a>
+                        <ul>
+                            <li><a href="First_Date.html">דייט ראשון</a></li>
+                            <li><a href="Family.html">פגישה עם ההורים<br> של בן/בת הזוג</a></li>
+                            <li><a class="not_working_link" href="#">פגישה עם החברים<br> של בן/בת הזוג</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="deflut_pointer" title="אקדמיה">אקדמיה</a>
+                        <ul>
+                            <li><a class="not_working_link" href="#">ראיון קבלה</a></li>
+                            <li><a class="not_working_link" href="#">היום הראשון</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="deflut_pointer" title="שירות צבאי">שירות צבאי</a>
+                        <ul>
+                            <li><a class="not_working_link" href="#">צו ראשון</a></li>
+                            <li><a class="not_working_link" href="#">היום הראשון בטירונות</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="deflut_pointer" title="תרומה לקהילה">תרומה לקהילה</a>
+                        <ul>
+                            <li>
+                                <a href="#" class="deflut_pointer" >מכינה ושנת שירות</a>
+                                <ul>
+                                    <li>
+                                        <a class="not_working_link" href="#">ראיון קבלה</a>
+                                    </li>
+                                    <li>
+                                        <a href="Mechina.html">היום הראשון</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="not_working_link" href="#">התנדבות כללית</a>
+                                <ul>
+                                    <li>
+                                        <a class="not_working_link" href="#">ראיון קבלה</a>
+                                    </li>
+                                    <li>
+                                        <a class="not_working_link" href="#">היום הראשון</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dress_describe deflut_pointer"><a href="dress_to_impress.html" title="קוד לבוש - Dress To Impress">Dress To Impress</a></li>
+                </ul>
+            </nav>
+
+            <nav class="main_nav_sticky second_nav_sticky">
+                <p class="page_name_inner_nav_Family" title="פגישה עם ההורים של בן/בת הזוג"> פגישה עם ההורים של בן/בת הזוג</p>
+                <ul>
+                    <li>
+                        <a onclick="scrollTest()" href="#" title="פתיח">פתיח</a>
+                    </li>
+                    <li>
+                        <a href="#homework_Family" title="שיעורי בית">שיעורי בית</a>
+                    </li>
+                    <li>
+                        <a href="#look_Family" title="מראה חיצוני">מראה חיצוני</a>
+                    </li>
+                    <li>
+                        <a href="#mime_Family" title="שפת גוף והבעות פנים">שפת גוף והבעות פנים</a>
+                    </li>
+                    <li>
+                        <a href="#what_to_say_Family" title="משפטי מפתח">משפטי מפתח</a>
+                    <li>
+                        <a href="#experts_Family" title="המלצות המומחים">המלצות המומחים</a>
+                    </li>
+                    <li>
+                        <a href="#tirgul_Family" title="תרגול">תרגול</a>
+                    </li>
+                    <li>
+                        <a href="#min90_Family" title="הדקה ה90">הדקה ה90</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav>
+                <ul class="breadcrumb">
+                    <li><a href="index.html">עמוד הבית</a></li>
+                    <li><a class="thispage">זוגיות</a></li>
+                    <li><a class="thispage">פגישה עם ההורים של בן/בת הזוג</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        <main id="main" role="main">
+
+            <section class="info_section info_inner_section">
+                <div class="info_div">
+                    <h1 class="inner_h1">רושם ראשוני מול ההורים של בן/בת הזוג</h1>
+                    <p>
+                        פגישה עם ההורים של בן או בת הזוג היא נקודת זמן משמעותית בקשר שלכם.
+                        על מנת לקבל את כרטיס הכניסה למשפחה, יהיה עליכם ליצור רושם ראשוני חיובי על בני הבית ולהיות הגרסה הכי טובה של עצמכם לפחות לערב אחד.
+                        <br><br>
+                        <span class="pink_bold">הרי אין שני לרושם ראשוני, לא?</span>
+                    </p>
+                </div>
+                <div class="info_img_div">
+                    <img class="info_img" src="images/images_homepage/family.jpg" alt="">
+                    <img class="info_square_yellow" src="graphics/square_yellow.svg" alt="" />
+                </div>
+            </section>
+
+            <section class="homework" id="homework_Family">
+                <img class="inner_line1" src="graphics/inner_line1.svg" alt="">
+                <h2 class="inner_h2 white">לפני הכל, שיעורי בית</h2>
+                <p class="white middle_title title_par">איך להתכונן מראש, מה להביא ומה חשוב לדעת? </p>
+                <ul>
+                    <li>
+                        <img class="V" src="graphics/V.svg" alt="">
+                        <h3 class="inner_h3">שוחחו עם בן/בת הזוג שלכם על משפחתם</h3>
+                        <p class="white">
+                            נסו לקבל כמה שיותר מידע על ההורים, אחים, סבים וגם על המשפחה המורחבת, אם תרגישו צורך בכך. כל מידע שיעזור למצוא ביניכם מכנה משותף גם יוכל להקליל ולהנעים את האווירה, וגם יגרום לכם להרגיש מוכנים ובטוחים יותר לקראת הפגישה.
+                        </p>
+                    </li>
+                    <li>
+                        <img class="V" src="graphics/V.svg" alt="">
+                        <h3 class="inner_h3">העמיקו את הידע על מנהגי המשפחה</h3>
+                        <p class="white">
+                            הביעו עניין אמיתי להכיר את המסורות והמנהגים של בני המשפחה לעומק. כך תרחיבו את מאגר נושאי השיחה איתם, ותראו להם שאתם לא רק מכבדים את מסורתם אלא גם בעלי רצון, יום אחד, להשתלב בה.
+                        </p>
+                    </li>
+                    <li>
+                        <img class="V" src="graphics/V.svg" alt="">
+                        <h3 class="inner_h3">הצטיידו מראש בשי צנוע להורי בן/בת הזוג</h3>
+                        <p class="white">
+                            אין כמו מחווה יפה להוקרת תודה. הבאת מתנה מסמלת את ההערכה שאתם חשים כלפי המארחים, ותשאיר אחריכם רושם חיובי מנצח.
+                            נסו להתאים את סוג המחווה לסגנון האירוח: בקבוק יין, זר פרחים או אפילו קינוח - כי הדרך ללב תמיד עוברת דרך הקיבה.
+                        </p>
+                    </li>
+                    <li>
+                        <img class="V" src="graphics/V.svg" alt="">
+                        <h3 class="inner_h3">
+                            כוונו שעון לרגע היציאה מהבית
+                        </h3>
+                        <p class="white">איחורים לא מתקבלים בברכה.</p>
+                    </li>
+                </ul>
+                <img class="inner_line2" src="graphics/inner_line2.svg" alt="">
+            </section>
+
+            <section class="look" id="look_Family">
+                <h2 class="inner_h2">מראה חיצוני</h2>
+                <p class="pink middle_title title_par"> השקיעו בעצמכם </p>
+                <div class="categories_arrows look_arrows">
+                    <button class="arrow_right" onclick="look_plusSlides(-1)"><img src="graphics/right_Arrow.svg" alt="מעבר ימינה"></button>
+                    <button onclick="look_plusSlides(1)"><img src="graphics/left_Arrow.svg" alt="מעבר שמאלה"></button>
+                </div>
+                <div class="look_info_main_div look_active">
+                    <div class="look_img_div">
+                        <img class="info_img" src="images/images_family/family_men.jpg" alt=" גבר לבוש בחולצה מכופתרת בצבע כחול ומכנס ג'ינס">
+                        <img class="info_square_yellow" src="graphics/square_yellow.svg" alt="">
+                    </div>
+                    <div class="look_info_div">
+                        <h3 class="inner_h3">גברים</h3>
+                        <ul>
+                            <li>
+                                חפשו את האיזון בין לבוש בסגנון אלגנטי לסגנון יום- יומי.
+                            </li>
+                            <li>
+                                בחרו בבגדים בגוונים סולידיים והמנעו מלבוש שחור מידי. לא מומלץ ללבוש חולצות טי-שירט מקושקשות המשדרות ילדותיות/ בוטות .
+                            </li>
+                            <li>
+                                שמרו על היגיינה וריח גוף נעים – למקרה ויהיה חיבוק בסוף המפגש.
+                            </li>
+                            <li>
+                                שימו לב לפרטים הקטנים! הגיעו מגולחים או עם זקן מסודר, ציפורניים קצוצות והקפידו על בגדים נקיים ונעליים לא בלויות.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="look_info_main_div">
+                    <div class="look_img_div">
+                        <img class="info_img" src="images/images_family/family_women.jpg" alt=" אישה לבושה בחולצת פסים ומכנס ג'ינס">
+                        <img class="info_square_yellow" src="graphics/square_yellow.svg" alt="">
+                    </div>
+                    <div class="look_info_div">
+                        <h3 class="inner_h3">נשים</h3>
+                        <ul>
+                            <li>
+                                חפשו את האיזון בין לבוש בסגנון אלגנטי לסגנון יום- יומי.
+                            </li>
+                            <li>
+                                בחרו בבגדים בגוונים נעימים, והימנעו מלבוש חושפני.
+                            </li>
+                            <li>
+                                שמרו על היגיינה וריח גוף טוב - למקרה ויהיה חיבוק בסוף המפגש.
+                            </li>
+                            <li>
+                                שימו לב לפרטים הקטנים! הגיעו עם שיער מסודר, שלבו אביזרים כמו תכשיטים או חגורה והקפידו על ציפורניים מטופחות.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="looks_buttons_div">
+                    <button role="none" onclick="look_currentSlide(1)" class="lookLines_active look_btn "></button>
+                    <button role="none" onclick="look_currentSlide(2)" class="look_btn"></button>
+                </div>
+            </section>
+            <section class="mime" id="mime_Family">
+                <h2 class="inner_h2">שפת גוף והבעת פנים</h2>
+                <p class="pink middle_title title_par"> כי הכל עניין של מסרים </p>
+                <div class="mime_arrow_div">
+                    <p>תעבירו עלי את העכבר</p>
+                    <img class="mime_arrow" src="graphics/mimes_arrow.svg" alt="">
+                </div>
+                <button role="text" class="rectangle_right" aria-labelledby="meetingparents_gif1" id="Family_gif1_div">
+                    <div class="white_rectangle_right">
+                        <p id="meetingparents_gif1">עמידה זקופה משדרת בטחון</p>
+                        <div class="gif_div" id="Family_gif1"></div>
+                    </div>
+                    <div class="pink_rectangle_right"></div>
+                </button>
+                <button role="text" class="rectangle_left" aria-labelledby="meetingparents_gif2" id="Family_gif2_div">
+                    <div class="white_rectangle_left">
+                        <p id="meetingparents_gif2">הראו חיבה לבן/בת הזוג שלכם</p>
+                        <div class="gif_div" id="Family_gif2"></div>
+                    </div>
+                    <div class="yellow_rectangle_left"></div>
+                </button>
+                <button role="text" class="rectangle_right" aria-labelledby="meetingparents_gif3" id="Family_gif3_div">
+                    <div class="white_rectangle_right">
+                        <p id="meetingparents_gif3">חייכו ושמרו על קשר עין כדי להקנות תחושת בטחון, רוגע ושליטה במצב</p>
+                        <div class="gif_div" id="Family_gif3"></div>
+                    </div>
+                    <div class="pink_rectangle_right"></div>
+                </button>
+
+                <button role="text" class="rectangle_left" aria-labelledby="meetingparents_gif4" id="Family_gif4_div">
+                    <div class="white_rectangle_left">
+                        <p id="meetingparents_gif4"> שילוב ידיים יכול להתפרש כמגננה או כחוסר פתיחות לזולת</p>
+                        <div class="gif_div" id="Family_gif4"></div>
+                    </div>
+                    <div class="yellow_rectangle_left"></div>
+                </button>
+            </section>
+            <section class="What_To_Say" id="what_to_say_Family">
+                <h2 class="inner_h2">משפטי מפתח</h2>
+                <p class="pink middle_title title_par"> המפתח שלכם להצלחה </p>
+                <div class="say">
+                    <h3>להגיד</h3>
+                    <ul>
+                        <li><span class="say_num wtsnum">1</span><strong>אל תתביישו לתת מחמאה.  </strong>כן, זה יכול להיות מעט מביך – אבל משתלם.</li>
+                        <li><span class="say_num wtsnum">2</span><strong>ספרו על עצמכם. </strong>החשיפה העצמית יוצרת קרבה, סקרנות ורצון לשמוע עליכם אפילו עוד בהמשך.</li>
+                        <li>
+                            <span class="say_num wtsnum">3</span><strong>מנו את המעלות שבכם. </strong>הם יעזרו לבני המשפחה לגבש עליכם תדמית חיובית ומוצלחת.
+                        </li>
+                    </ul>
+                </div>
+                <div class="dont_say">
+                    <h3>לשמור בלב</h3>
+                    <ul>
+                        <li>
+                            <span class="dontSay_num wtsnum">1</span><strong>המנעו מנתינת מחמאות "מזויפות"</strong>, אין צורך להמציא בכוח.
+                        </li>
+                        <li>
+                            <span class="dontSay_num wtsnum">2</span>אל תספרו על עצמכם <strong>יותר מדי  </strong>במהלך הדייט. לכולנו יש חיים עמוסים אך הפגישה אמורה להיות חוויתית ומהנה.
+                        </li>
+                        <li>
+                            <span class="dontSay_num wtsnum">3</span> <strong>
+                                המושג "מעלות" לא מתייחס להתרברבות.
+                            </strong>שימו לב שאתם לא עפים על עצמכם יותר מדי או מנסים לדחוף את החוזקות שלכם בכל מצב.
+                        </li>
+                    </ul>
+                </div>
+
+            </section>
+            <div class="inner_line_3_div">
+                <img class="inner_line3" src="graphics/inner_line3.svg" alt="">
+            </div>
+            <section class="experts" id="experts_Family">
+                <h2 class="inner_h2">המלצות המומחים</h2>
+                <p class="middle_title title_par"> כי אין חכם כבעל ניסיון </p>
+                <div class="expert_right">
+                    <div class="experts_img_div">
+                        <img class="expert_img" src="images/images_family/ronen.jpg" alt="">
+                        <img class="expert_shape" src="graphics/expert_shape.svg" alt="" />
+                    </div>
+                    <h3 class="expert_name"><b>ד"ר רונן המר</b> | פסיכולוג ומרצה במכון טכנולוגי חולון HIT</h3>
+                    <p class="expert_tip">"תיהיו אותנטים ככל הניתן במקום לנסות להפעיל בקרה מקסימלית ושליטה מתמדת על הבעות הפנים שלך.<br /> אל תחששו לתת ביטוי למה שאתם מרגישים באמת"</p>
+                </div>
+                <div class="expert_left">
+                    <div class="experts_img_div">
+                        <img class="expert_img" src="images/images_family/ravit.jpg" alt="">
+                        <img class="expert_shape" src="graphics/expert_shape.svg" alt="" />
+                    </div>
+                    <h3 class="expert_name"><b>רוית נהיר</b> | אמא לשתי בנות בזוגיות </h3>
+                    <p class="expert_tip">"נסו להשתלב בשיחה המשפחתית, להגיד תודה בסיום ולפנות את הכלים מהשולחן. תאמרו תודה והשתדלו להמנע מביקורת או שיפוטיות יתר על המידה"</p>
+                </div>
+
+            </section>
+            <section class="tirgul" id="tirgul_Family">
+                <h2 class="inner_h2">תרגול, תרגול, תרגול</h2>
+                <p class="pink middle_title title_par"> קשה באימונים, קל בקרב! </p>
+
+                <div class="tirguls_boxes_div">
+                    <button class="tirgul_card" onclick="    arialabeledBy_Func(0,'family_mirror')" aria-label="מבחן המראה, לחץ כדי לגלות עוד">
+                        <div class="tirgul_card_3d tirgul_mirror">
+                            <div onclick="" class="tirgul_front">
+                                <h3>מבחן<span class="pink">המראָה</span></h3>
+                                <p>העבירו עליי את העכבר</p>
+                            </div>
+                            <div class="tirgul_back">
+                                <h3>מבחן<span class="pink">המראָה</span></h3>
+                                <p id="family_mirror">
+                                    לפני המפגש, התאמנו מול המראה: עמדו זקוף, תחייכו ותיישרו מבט. תרגלו את שפת הגוף שלכם, כך שכשרגע הפגישה יבוא – תהיו הכי נינוחים שאפשר.
+                                </p>
+                            </div>
+                        </div>
+                    </button>
+                    <button class="tirgul_card" onclick="    arialabeledBy_Func(1,'family_timer')" aria-label="מבחן הטיימר, לחץ כדי לגלות עוד">
+                        <div class="tirgul_card_3d tirgul_timer">
+                            <div class="tirgul_front">
+                                <h3>מבחן<span>הטיימר</span></h3>
+                                <p>העבירו עליי את העכבר</p>
+                            </div>
+                            <div class="tirgul_back">
+                                <h3>מבחן<span class="pink">הטיימר</span></h3>
+                                <p id="family_timer">
+                                    יש לכם דקה? נצלו אותה בחוכמה והציגו את עצמכם לעצמכם - בלי לחרוג מהזמן. <br />
+                                    בזמן הזה נסו לתמצת את מי שאתם לכמה משפטים שיראו להורים של בן/בת הזוג למה דווקא לכם מגיע לזכות (לא פחות!) בילד או הילדה שלהם.
+                                </p>
+                            </div>
+                        </div>
+                    </button>
+                    <button class="tirgul_card" onclick="arialabeledBy_Func(2,'family_grandpa')" aria-label="מבחן הסבתא, לחץ כדי לגלות עוד">
+                        <div class="tirgul_card_3d tirgul_grandpa">
+                            <div class="tirgul_front">
+                                <h3>מבחן<span class="yellow">הסבתא</span></h3>
+                                <p>העבירו עליי את העכבר</p>
+                            </div>
+                            <div class="tirgul_back">
+                                <h3>מבחן<span class="pink">הסבתא</span></h3>
+                                <p id="family_grandpa">
+                                    אין כמו סבתא – האישה בעלת הניסיון וזאת שתמיד תגיד לכם את האמת. <br/>שבו לשיחה עם סבתא ונצלו את העובדה שגם היא היתה פעם בתפקיד "הנבחנת", ואפילו בחנה אחרים בעצמה,  מה שהופך את הטיפים שלה לאמינים במיוחד.
+                                </p>
+                            </div>
+                        </div>
+                    </button>
+
+                </div>
+                <img class="tirgul_shape tirgul_shape_pink" src="graphics/tirgul_pink.svg" alt="">
+                <img class="tirgul_shape tirgul_shape_blue" src="graphics/tirgul_blue.svg" alt="">
+                <img class="tirgul_shape tirgul_shape_yellow" src="graphics/tirgul_yellow.svg" alt="">
+
+            </section>
+            <div class="inner_line_4_div">
+                <img class="inner_line4" src="graphics/inner_line4.svg" alt="">
+            </div>
+            <section class="min90" id="min90_Family">
+
+                <div class="min90_hp">
+                    <h2 class="inner_h2 white">הדקה ה-90</h2>
+                    <p class="white middle_title title_par">כל התכלס ב90 שניות</p>
+                </div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/igZWeBigzuo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+        </main>
+        <footer>
+            <div id="footer_ul_div">
+                <ul id="footer_ul">
+                    <li><a href="contactUs.html" title="צור קשר">צור קשר</a></li>
+                    <li><a href="websiteMap.html" title="מפת האתר">מפת האתר</a></li>
+                    <li><a href="about.html" title="אודות">אודות</a></li>
+                </ul>
+            </div>
+            <p>© כל הזכויות שמורות לצוות אתר אין שני לו </p>
+        </footer>
+    </div>
+</body>
+</html>
