@@ -1545,7 +1545,7 @@ footer li {
 --------------------------*/
 
     #interview_gif1 {
-        background-image: url(../images/images_interview/_DSF2304.png);
+        background-image: url(../images/images_interview/DSF2304.png);
         background-size: 100%;
         background-repeat: no-repeat;
         position: relative;
@@ -1556,7 +1556,7 @@ footer li {
 
         #interview_gif1:hover, #interview_gif1_div:hover #interview_gif1, #interview_gif1_div:focus #interview_gif1
          {
-            background-image: url(../images/images_interview/_DSF2308.png);
+            background-image: url(../images/images_interview/DSF2308.png);
             position: relative;
             top: -256px;
             right: 136px;
